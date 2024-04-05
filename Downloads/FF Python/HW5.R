@@ -2,6 +2,8 @@
 zstocks <- read.csv("stk-day-2019.csv", header = TRUE)
 mstocks <- read_excel("stk-mon-2019.xlsx")
 
+#zkkk
+
 mm <- stk_mon_2019[stk_mon_2019$date >= "20150130" & stk_mon_2019$date <= "20191231", ]
 # Filter data for the period 2015-2019
 zstocks <- zstocks[zstocks$date >= 20150101 & zstocks$date <= 20191231, ]
